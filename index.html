@@ -3,8 +3,9 @@
   <head>
   <link rel="stylesheet" href="css/curtain.css" />
   <link rel="stylesheet" href="css/index.css" />
-	<link href="./css/bootstrap.css" rel="stylesheet">
-	<link href="./css/starter-template.css" rel="stylesheet">
+  <link href="./css/bootstrap.css" rel="stylesheet">
+  <link href="./css/index.css" rel="stylesheet">
+  <link href="./css/starter-template.css" rel="stylesheet">
     <!-- Let browser know website is optimized for mobile
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/> -->
   </head>
@@ -12,10 +13,10 @@
   <body>
     <div class="curtain">
       <div class="curtain-panel left">
-        <img src="assets/logo-top.png" class="curtain-piece-left" />
+        <img src="assets/logo-top.png" class="curtain-piece-left" id="curtain-left"/>
       </div>
       <div class="curtain-panel right">
-        <img src="assets/logo-bottom.png" class="curtain-piece-right" />
+        <img src="assets/logo-bottom.png" class="curtain-piece-right"  id="curtain-right"/>
       </div>
       <div class="content">
         <nav class="navbar navbar-expand-md navbar-dark bg-purple fixed-top">
@@ -34,10 +35,9 @@
 
           <div class="collapse navbar-collapse" id="navbarsExampleDefault">
             <ul class="navbar-nav mr-auto">
-              <li class="nav-item active">
+              <li class="nav-item">
                 <a class="nav-link" href="#"
-                  >Home <span class="sr-only">(current)</span></a
-                >
+                  >Home <span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Writeups</a>
@@ -59,7 +59,7 @@
           <div class="starter-template">
             <h1>Template</h1>
             <p class="lead">
-              Use this document as a template for other pages.<br />
+              Use this document as a template for other pages.<br/>
               Keep in mind, Bootstrap documentation might be needed to build
               components of the other pages.
             </p>
@@ -75,5 +75,7 @@
     ></script>
 
     <script src="./js/bootstrap.min.js"></script>
+    <script src="js/curtain.js"></script>
+    <script src="jquery-3.4.1.min.js"></script>
   </body>
 </html>
