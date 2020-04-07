@@ -1,0 +1,12 @@
+body {
+	overflow: hidden;
+}
+
+.img-wrap {
+    width: 1em;
+    height: 1em;
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    margin: 0;
+  }
