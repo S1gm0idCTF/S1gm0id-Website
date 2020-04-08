@@ -1,5 +1,6 @@
 body {
-	overflow: hidden;
+    overflow: hidden;
+    padding-top: 5rem;
 }
 
 .img-wrap {
@@ -10,3 +11,7 @@ body {
     overflow: hidden;
     margin: 0;
   }
+.starter-template {
+    padding: 3rem 1.5rem;
+    text-align: center;
+}
